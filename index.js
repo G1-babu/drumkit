@@ -72,3 +72,5 @@ if (key === "j"){
   tom();
   }
 }
+
+exports.build=series(scssTask,jsTask);
